@@ -12,6 +12,18 @@
   --text-color: #2B283A;
 }
 
+.location {
+  color: var(--text-color);
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
 header{
   background: var(--second-color);
   color: var(--bg-color);
@@ -28,4 +40,53 @@ header{
   gap: 8px;
   justify-content: center;
   align-items: center;
+}
+
+.icon{
+  width: 7px;
+  height: 9.545px;
+  flex-shrink: 0;
+}
+
+.location_img{
+  width: 125px;
+  height: 168px;
+  flex-shrink: 0;
+}
+
+.place{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  gap: 10px;
+}
+
+.place a{
+  color: #918E9B;
+  font-size: 0.8rem;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  gap: 8px;
+}
+
+.info h1{
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.describe{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 1.3rem;
+}
+
+.describe h3{
+  font-size: 0.95rem;
 }
